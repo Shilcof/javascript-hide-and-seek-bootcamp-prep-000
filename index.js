@@ -16,6 +16,6 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  var selection = lis.querySelector('div#nested div.target');
+  var selection = lis.querySelector('div#grand-node div.target');
   return selection
 }
