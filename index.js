@@ -7,7 +7,7 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget() {
-  var selection = lis.querySelector('div#nested div.target');
+  var selection = lis.querySelector('#nested .target');
   return selection
 }
 
@@ -16,6 +16,11 @@ function increaseRankBy(n) {
 }
 
 function deepestChild() {
-  var selection = lis.querySelector('div#grand-node div.target');
+  var selection = lis.querySelectorAll('div#grand-node div.target');
+  
+  var nodes = document.querySelectorAll(`#${id} ${element}`);
+  if(!nodes.length) return false;
+  return nodes[nodes.length-1];
+  
   return selection
 }
