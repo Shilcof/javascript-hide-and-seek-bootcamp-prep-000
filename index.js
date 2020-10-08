@@ -15,7 +15,7 @@ function increaseRankBy(n) {
   var selection = lis.querySelectorAll('ul.ranked-list li');
   
   for (let i = 0; i < selection.length; i++) {
-    lis[i].innerHTML = (i + n).toString();
+    selection[i].innerHTML = (i + n).toString();
   }
   
   return selection;
