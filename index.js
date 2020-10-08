@@ -6,7 +6,7 @@ function getFirstSelector(selector) {
   return selection;
 }
 
-function nestedTarget() {
+function nestedTarget(target) {
   
 }
 
