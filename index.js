@@ -7,7 +7,7 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget(target) {
-  
+  var selection = lis.querySelector();
 }
 
 function increaseRankBy(n) {
