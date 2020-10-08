@@ -12,7 +12,8 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  var selection = lis.querySelectorAll('#grand-node div');
+  var selection = lis.querySelectorAll('.ranked-list');
+  
   return selection[selection.length-1];
 }
 
