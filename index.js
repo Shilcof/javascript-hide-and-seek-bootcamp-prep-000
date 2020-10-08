@@ -7,7 +7,7 @@ function getFirstSelector(selector) {
 }
 
 function nestedTarget(target) {
-  var selection = lis.querySelector('div #nested');
+  var selection = lis.querySelector('div#nested');
   return selection
 }
 
