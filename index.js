@@ -12,7 +12,7 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  var selection = lis.querySelectorAll('.ranked-list');
+  var selection = lis.querySelectorAll('.ranked-list li');
   
   for (let i = 0; i < selection.length; i++) {
     lis[i].innerHTML = (i + n).toString();
