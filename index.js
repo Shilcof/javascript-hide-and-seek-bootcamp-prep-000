@@ -12,7 +12,8 @@ function nestedTarget() {
 }
 
 function increaseRankBy(n) {
-  
+  var selection = lis.querySelectorAll('#grand-node div');
+  return selection[selection.length-1];
 }
 
 function deepestChild() {
